@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		1376EA7611282C37B41E1DE5 /* Pods-SegmentBarModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentBarModule_Example.release.xcconfig"; path = "Target Support Files/Pods-SegmentBarModule_Example/Pods-SegmentBarModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		26993A5C8BA64FBFC6368C6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		563D4D37E87E39DE1AC08381 /* SegmentBarModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentBarModule.podspec; path = ../SegmentBarModule.podspec; sourceTree = "<group>"; };
+		26993A5C8BA64FBFC6368C6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		563D4D37E87E39DE1AC08381 /* SegmentBarModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SegmentBarModule.podspec; path = ../SegmentBarModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A5816909EAD4070E3A78F3F /* Pods_SegmentBarModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentBarModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SegmentBarModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentBarModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		922F3730A69104A299AD52ED /* Pods-SegmentBarModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentBarModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-SegmentBarModule_Example/Pods-SegmentBarModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB15CCF08043E98172F6D6C7 /* Pods-SegmentBarModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentBarModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SegmentBarModule_Tests/Pods-SegmentBarModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EF6C1D4317067C93EB0B00DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF6C1D4317067C93EB0B00DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				BB15CCF08043E98172F6D6C7 /* Pods-SegmentBarModule_Tests.debug.xcconfig */,
 				7DA58B33024D49444D66E121 /* Pods-SegmentBarModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

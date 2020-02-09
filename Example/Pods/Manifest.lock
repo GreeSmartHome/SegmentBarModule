@@ -1,0 +1,16 @@
+PODS:
+  - SegmentBarModule (0.1.0)
+
+DEPENDENCIES:
+  - SegmentBarModule (from `../`)
+
+EXTERNAL SOURCES:
+  SegmentBarModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SegmentBarModule: a774c17c54d290ff2c42e60316ec49d0451eec9d
+
+PODFILE CHECKSUM: ae8b7dda1c8e34661e74de99db3e7f4685235309
+
+COCOAPODS: 1.8.4
