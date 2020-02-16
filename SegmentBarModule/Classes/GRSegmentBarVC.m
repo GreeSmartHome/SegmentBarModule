@@ -19,6 +19,16 @@
 
 @implementation GRSegmentBarVC
 
++ (instancetype)shareInterface {
+    
+    static GRSegmentBarVC *segmentBarVC;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        segmentBarVC = [[GRSegmentBarVC alloc]init];
+    });
+    return segmentBarVC;
+}
+
 - (GRSegmentBar *)segmentBar{
     if (!_segmentBar) {
         _segmentBar = [GRSegmentBar segmentBarWithFrame:CGRectZero];
@@ -33,7 +43,10 @@
     if (!_contentView) {
         _contentView = [[UIScrollView alloc]init];
         _contentView.delegate = self;
+        //分页滚动
         _contentView.pagingEnabled = YES;
+        //隐藏横向滚动条
+        _contentView.showsHorizontalScrollIndicator = NO;
         [self.view addSubview:_contentView];
     }
     return _contentView;

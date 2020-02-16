@@ -12,6 +12,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GRSegmentBarVC : UIViewController
+
++ (instancetype)shareInterface;
+
 //选项卡
 @property (nonatomic, strong) GRSegmentBar *segmentBar;
 
