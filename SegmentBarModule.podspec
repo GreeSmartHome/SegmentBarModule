@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SegmentBarModule'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = '选项卡组件'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 这是一个可以滑动切且可灵活配置的选项卡组件
                        DESC
 
-  s.homepage         = 'https://gitee.com/luojiya/SegmentBarModule'
+  s.homepage         = 'https://github.com/GreeSmartHome/SegmentBarModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1049646716@qq.com' => '1049646716@qq.com' }
-  s.source           = { :git => 'https://gitee.com/luojiya/SegmentBarModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GreeSmartHome/SegmentBarModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
